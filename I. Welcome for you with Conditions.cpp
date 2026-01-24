@@ -11,8 +11,10 @@
 
 #include<iostream>
 using namespace std;    
-int main(){
-    ll a , b;
+signed main(){
+    
+
+    long long a , b;
     cin>>a>>b;
     if(a>=b){
         cout<<"Yes"<<endl;

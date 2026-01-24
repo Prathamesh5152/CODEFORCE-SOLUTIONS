@@ -30,7 +30,7 @@
 // 18
 // 65
 // 130
-// 132
+// 132  
 
 
 #include<iostream>
@@ -40,8 +40,8 @@ int main(){
     while(t--){
         int l , r;
         cin>>l>>r;
-        long long left = l * 1ll (l+1)/2;
-        long long right = r * 1ll (r+1)/2;
+        long long left = l * 1ll * (l+1)/2;
+        long long right = r * 1ll * (r+1)/2;
         long long ans = right - left;
         cout<<ans<<endl;
 
