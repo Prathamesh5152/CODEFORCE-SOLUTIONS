@@ -40,6 +40,13 @@ int main(){
     d=d%100;
 
     int ans = (a*b*c*d)%100;
-    cout<<ans;
+
+    if(ans<10){
+        cout<<0<<ans;
+    }else{
+        cout<<ans;
+
+    }
+   
 
 }
